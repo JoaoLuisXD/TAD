@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Aluno/Documents/JL ED",
-      "program": "c:/Users/Aluno/Documents/JL ED/build/Debug/outDebug",
+      "cwd": "c:/Users/Aluno/Documents/JL ED/TAD",
+      "program": "c:/Users/Aluno/Documents/JL ED/TAD/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
