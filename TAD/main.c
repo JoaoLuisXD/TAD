@@ -1,11 +1,15 @@
 #include <stdio.h>
-#include "TAD_ponto/TAD_ponto.h"
-
+#include "TAD_circulo/TAD_circulo.h"
+#define PI 3,14159
 
 int main()
 {
-    struct ponto * p1 = criar_ponto(1,2);
-
-    printf("%f %f", p1->x, p1->y);
-    return 0;
+    PPonto p = criar_ponto(2,3);
+    CCirculo a = circ_cria(2,3,10);
+   
+   printf("%f\n",a->p->x);
+   printf("%f\n",a->p->y);
+   printf("%f",a->raio); 
+   
+   return 0;
 }
