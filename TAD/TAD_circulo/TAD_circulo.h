@@ -10,9 +10,9 @@ struct circulo
 typedef struct circulo Circulo;
 typedef Circulo *CCirculo;
 
-CCirculo circ_cria(float x,float y,float raio);
-void cir_libera(CCirculo c);
-float circ_area(CCirculo c);
-int circ_interior(CCirculo c, float x, float y);
+CCirculo cria_circ(float x,float y,float raio);
+void libera_circ(CCirculo c);
+float area_circ(CCirculo c);
+int interior_circ(CCirculo c, PPonto p);
 
 #include "TAD_circulo.c"
