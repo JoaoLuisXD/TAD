@@ -1,7 +1,7 @@
 #ifndef __TAD_CIRCULO_C__
     #define __TAD_CIRUCLO_C__
+        #define PI 3.14159
 
-    
 CCirculo cria_circ(float x,float y,float raio)
     {
         CCirculo c = (CCirculo)malloc(sizeof(Circulo));
