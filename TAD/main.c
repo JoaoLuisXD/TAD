@@ -30,7 +30,7 @@ int main()
     printf("%.2f, %.2f\n",q->x,q->y);*/
 
 
-    CCirculo a = cria_circ(2,3,5);
+    /*CCirculo a = cria_circ(2,3,5);
    
     printf("VALOR DE X: %.2f\n",a->p->x);
     printf("VALOR DE Y: %.2f\n",a->p->y);
@@ -40,6 +40,6 @@ int main()
     {
         printf("OS PONTOS ESTAO DENTRO DO CIRCULO !! \n");
     }
-    else printf("OS PONTOS ESTAO FORA DO CIRCULO\n");
+    else printf("OS PONTOS ESTAO FORA DO CIRCULO\n");*/
    return 0;
 }
