@@ -2,10 +2,11 @@
 #include <stdlib.h>
 #include <math.h>
 #include "TAD_circulo/TAD_circulo.h"
+#include "TAD_matriz/TAD_matriz.h"
 
 int main()
 {
-    PPonto p = cria_ponto(2,3);
+    //PPonto p = cria_ponto(2,3);
     /*PPonto q = cria_ponto(4,5);
     printf("PONTO 1: ");
     printf("%.2f, %.2f\n",p->x,p->y);
@@ -41,5 +42,21 @@ int main()
         printf("OS PONTOS ESTAO DENTRO DO CIRCULO !! \n");
     }
     else printf("OS PONTOS ESTAO FORA DO CIRCULO\n");*/
+
+    int a,b;
+    printf("DIGITE A QUANTIDADE DE LINHAS: ");
+    scanf("%d",&a);
+    printf("DIGITE A QUANTIDADE DE COLUNAS: ");
+    scanf("%d",&b);
+    MMatriz matrix = cria_mat(a,b);
+    for(int i=0;i<a;i++)
+    {
+        for(int j=0;j<b;j++)
+        {
+            printf("|%d||%d|: |%.2f|\n",i,j,acessa_mat(matrix,i,j));
+        }
+    }
+
+
    return 0;
 }
