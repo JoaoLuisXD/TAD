@@ -6,8 +6,8 @@
 
 int main()
 {
-    //PPonto p = cria_ponto(2,3);
-    /*PPonto q = cria_ponto(4,5);
+    PPonto p = cria_ponto(2,3);
+    PPonto q = cria_ponto(4,5);
     printf("PONTO 1: ");
     printf("%.2f, %.2f\n",p->x,p->y);
     printf("PONTO 2: ");
@@ -28,7 +28,11 @@ int main()
     printf("%.2f, %.2f\n",q->x,q->y);
     atribui_ponto(q,t,u);
     printf("VALORES DE |X| E |Y| DEPOIS DA ATRIBUICAO DO PONTO Q: ");
-    printf("%.2f, %.2f\n",q->x,q->y);*/
+    printf("%.2f, %.2f\n",q->x,q->y);
+    printf("\n");
+    PPonto l = soma_ponto(p,q);
+    printf("|%.2f|\n",l->x);
+    printf("|%.2f|\n",l->y);
 
 
     /*CCirculo a = cria_circ(2,3,5);
@@ -43,7 +47,8 @@ int main()
     }
     else printf("OS PONTOS ESTAO FORA DO CIRCULO\n");*/
 
-    int a,b;
+    /*int a,b;
+    float v;
     printf("DIGITE A QUANTIDADE DE LINHAS: ");
     scanf("%d",&a);
     printf("DIGITE A QUANTIDADE DE COLUNAS: ");
@@ -56,7 +61,13 @@ int main()
             printf("|%d||%d|: |%.2f|\n",i,j,acessa_mat(matrix,i,j));
         }
     }
-
+    for(int i=0;i<a;i++)
+    {
+        for(int j=0;j<b;j++)
+        {
+            atribui_mat(matrix,a,b,matrix);
+        }
+    }*/
 
    return 0;
 }

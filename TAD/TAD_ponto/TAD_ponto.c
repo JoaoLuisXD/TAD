@@ -30,5 +30,11 @@
         distancia_y = p2->y - p1->y;
         return sqrt(distancia_x*distancia_x + distancia_y*distancia_y);
     }
-    
+    PPonto soma_ponto(PPonto p1,PPonto p2)
+    {
+        float soma_x = p1->x + p2->x;
+        float soma_y = p1->y + p2->y;
+        PPonto p = cria_ponto(soma_x,soma_y);
+        return p;
+    }
 #endif
