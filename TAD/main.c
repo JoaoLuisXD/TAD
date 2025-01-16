@@ -4,9 +4,10 @@
 #include "TAD_circulo/TAD_circulo.h"
 #include "TAD_matriz/TAD_matriz.h"
 
+
 int main()
 {
-    PPonto p = cria_ponto(2,3);
+    /*PPonto p = cria_ponto(2,3);
     PPonto q = cria_ponto(4,5);
     printf("PONTO 1: ");
     printf("%.2f, %.2f\n",p->x,p->y);
@@ -32,7 +33,7 @@ int main()
     printf("\n");
     PPonto l = soma_ponto(p,q);
     printf("|%.2f|\n",l->x);
-    printf("|%.2f|\n",l->y);
+    printf("|%.2f|\n",l->y);*/
 
 
     /*CCirculo a = cria_circ(2,3,5);
@@ -68,6 +69,5 @@ int main()
             atribui_mat(matrix,a,b,matrix);
         }
     }*/
-
    return 0;
 }

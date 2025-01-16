@@ -58,6 +58,7 @@
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "files.associations": {
     "tad_ponto.h": "c",
-    "stdlib.h": "c"
+    "stdlib.h": "c",
+    "tad_circulo.h": "c"
   }
 }
